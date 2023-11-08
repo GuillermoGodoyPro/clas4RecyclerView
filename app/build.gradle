@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.matesdev.clas4recyclerview'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.matesdev.clas4recyclerview"
         minSdk 24
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
