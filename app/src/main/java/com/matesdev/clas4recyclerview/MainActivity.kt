@@ -1,6 +1,5 @@
 package com.matesdev.clas4recyclerview
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -20,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         recycleView.adapter = adapter
 
         adapter.submitList(getListaPokemon())
-
     }
 
     private fun getListaPokemon(): MutableList<Pokemon>{
